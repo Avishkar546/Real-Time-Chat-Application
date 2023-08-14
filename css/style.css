@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background: gainsboro; */
+}
+.logo img{
+    display: block;
+    margin: auto;
+    height: 70px;
+}
+.container{
+    max-width: 500px;
+    background-color: #F5F5F5;
+    margin: auto;
+    padding: 8px;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 3px;
+    overflow-y: auto;   
+}
+.right{
+    float: right;
+    clear: both;
+    max-width: 60%;
+    background: green;
+    border: none;
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+.left{
+    float: left;
+    clear: both;
+    max-width: 60%;
+    background: green;
+    border: none;
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+.message{
+    max-width: 370px;
+    display: block;
+    margin: 20px auto;
+}
+.message input{
+    padding: 7px;
+    width: 300px;
+}
+.message button{
+    padding: 7px;
+}
